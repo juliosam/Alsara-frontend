@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Navi from "./nav";
+import React from "react";
+import Accordeon from "./accordeon";
+import Cardd from "./card";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container bg-p h-100">
+      <div className="row">
+        <div className="col">
+          <div className="px-4 py-1 m-2 text-center">
+            <Navi/>
+            <h2>Alsara</h2>
+            <div className="d-flex">
+              <Accordeon/>
+              <Cardd/>
+            </div>
+          </div>          
+        </div> 
+      </div>
     </div>
   );
 }

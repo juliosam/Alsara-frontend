@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root{
+  background-color: lightyellow;
+  height: 100vh;
+}
+
+.bg-p {
+  background-color: bisque;
+}
+
+.accordion-header , .accordion-button{
+  background-color: blueviolet !important;
+  color: white !important;
+  border-radius: 5px !important;
+}
