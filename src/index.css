@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
 
 code {
@@ -12,9 +13,13 @@ code {
     monospace;
 }
 
+.app{
+  min-height: 100vh;
+}
+
 #root{
   background-color: lightyellow;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .bg-p {
@@ -22,7 +27,20 @@ code {
 }
 
 .accordion-header , .accordion-button{
-  background-color: blueviolet !important;
+  background-color: rosybrown !important;
   color: white !important;
   border-radius: 5px !important;
+}
+
+.personalizados{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 750px;
+}
+
+.carousel-container{
+  width: 654px;
 }

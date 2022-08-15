@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 const Navi = () => {
   return (
@@ -11,7 +12,7 @@ const Navi = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
+        <Link to="/"><a className="nav-link active" aria-current="page" >Home</a></Link>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Galeria</a>
@@ -21,16 +22,17 @@ const Navi = () => {
             Productos
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item" href="#">Personalizados</a></li>
-            <li><a className="dropdown-item" href="#">Accesorios</a></li>
-            <li><a className="dropdown-item" href="#">Ropa</a></li>
+            <li><Link to="/personalizados"><a className="dropdown-item">Personalizados</a></Link></li>
+            <li><Link to="/accesorios"><a className="dropdown-item">Accesorios</a></Link></li>
+            <li><Link to="/ropa"><a className="dropdown-item">Ropa</a></Link></li>
           </ul>
         </li>
         <li className="nav-item">
           <a className="nav-link disabled" href="#" tabIndex="-1" aria-disabled="true">About</a>
         </li>
       </ul>
-      <form className="d-flex">
+      <form className="d-flex" role="search">
+        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button className="btn btn-outline-danger" type="submit">Search</button>
       </form>
     </div>

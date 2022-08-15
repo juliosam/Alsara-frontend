@@ -43,7 +43,7 @@ const Accordeon = () => {
         </div>
       </div>
       <div className="d-grid gap-2 col-6 mx-auto mt-5">
-        <button className="btn btn-danger" type="button">Go to car</button>
+        <button className="btn btn-danger bg-opacity-50" type="button">Go to car</button>
       </div>
     </div>
   )
