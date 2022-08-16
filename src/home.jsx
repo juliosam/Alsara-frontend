@@ -1,12 +1,13 @@
 import React from 'react'
-import Accordeon from "./accordeon";
-import Cardd from "./card";
+import Accordeon from './components/accordeon';
+import Cardd from './components/card';
+import alsara2 from './img/Alsara2.png'
 
 const Home = () => {
   return (
     <div className='home'>
-      <h2>Alsara</h2>
-      <div className="d-flex">
+      <img src={alsara2} alt='logo' style={{width:'180px'}}/>
+      <div className='d-flex'>
         <Accordeon/>
         <Cardd/>
       </div>

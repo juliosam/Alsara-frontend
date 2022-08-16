@@ -2,7 +2,7 @@ import React from 'react'
 
 const Accordeon = () => {
   return (
-    <div className="accordion w-75" id="accordionExample">
+    <div className="accordion col-12 col-lg-8 col-md-6 col-sm-12" id="accordionExample">
       <div className="accordion-item">
         <h2 className="accordion-header" id="headingOne">
           <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -12,9 +12,9 @@ const Accordeon = () => {
         <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
           <div className="accordion-body">
             <strong>Accesorios, ropa, y vasos con diseño personalizado al cliente.</strong> Tanto los vasos como la ropa se personalizan 
-            mayormente con vinil con el diseno simple de su preferencia, puede ser un nombre, un logo monocromatico o 
-            una silueta, los precios varian dependiendo de los colores de vinil y los tipos, siendo el metalico un poco mas caro. En cuanto 
-            a los accesorios su personalizacion es mas variada, ya que pueden incluir dijes y pedreria <code>.vea ejemplos</code> o pueden solo requerir vinil.
+            con vinil con el diseno simple de su preferencia, puede ser un nombre, un logo B&N o una silueta, los precios varian dependiendo 
+            de los colores de vinil y los tipos, siendo el metalico un poco mas caro. En cuanto a los accesorios su personalizacion es mas 
+            variada, ya que pueden incluir dijes y pedreria <code>.vea ejemplos</code>.
           </div>
         </div>
       </div>

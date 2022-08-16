@@ -5,6 +5,8 @@ import Home from "./home";
 import Personalizados from "./personalizados";
 import Accesorios from "./accesorios";
 import Ropa from "./ropa";
+import Galeria from "./galeria";
+import About from "./about";
 
 function App() {
   return (
@@ -15,9 +17,11 @@ function App() {
             <Navi/>
             <Routes>
               <Route path="/" element={<Home/>}/>
+              <Route path="/galeria" element={<Galeria/>}/>
               <Route path="/personalizados" element={<Personalizados/>}/>
               <Route path="/accesorios" element={<Accesorios/>}/>
               <Route path="/ropa" element={<Ropa/>}/>
+              <Route path="/about" element={<About/>}/>
             </Routes>
           </div>          
         </div> 
