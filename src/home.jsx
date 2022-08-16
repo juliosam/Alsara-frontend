@@ -4,6 +4,7 @@ import Cardd from './components/card';
 import alsara2 from './img/Alsara2.png'
 
 const Home = () => {
+
   return (
     <div className='home'>
       <img src={alsara2} alt='logo' style={{width:'180px'}}/>

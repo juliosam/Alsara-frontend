@@ -48,3 +48,12 @@ code {
 .img-div{
   margin-bottom: 20px;
 }
+
+.img-div-dinamic{
+  height: 250px;
+  overflow: hidden;
+}
+
+.fit{
+  object-fit:cover;
+}
